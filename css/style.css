@@ -1,0 +1,44 @@
+@media screen and (max-width: 1000px) {
+	.title-super {
+		font-size: 30px;
+	}
+	
+	.text-thin {
+		font-weight: 300;
+	}
+}
+
+@media screen and (min-width: 1001px) {
+	.title-super {
+		font-size: 60px;
+	}
+	
+	.text-thin {
+		font-weight: 100;
+	}
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+a {
+	min-height: 48px;
+	min-width: 48px;
+}
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.text-bold {
+	font-size: 30px;
+	font-weight: 700;
+}
+
